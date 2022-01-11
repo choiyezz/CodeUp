@@ -1,8 +1,6 @@
 # 기본
 print("Hello")
 
-
-
 # 공백을 포함한 문장 출력
 print("Hello world")
 print("Hello", "world")
@@ -24,6 +22,4 @@ print("\"!@#$%^&*()\'")
 print("C:\\Download\\'hello\\'.py")
 
 print("print(\"Hello\\nWorld\")")
-
-
 
