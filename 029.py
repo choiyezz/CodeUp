@@ -4,7 +4,7 @@
 """
 # 이상한 출석번호 부르기
 num = int(input())
-rlist = map(int, input().split())
+rlist = list(map(int, input().split()))
 nlist = []
 
 for i in range(24):
@@ -14,7 +14,7 @@ for i in rlist:
     nlist[i] += 1
 
 for i in range(1, 24):
-    print( nlist[i], end=' ')
+    print(nlist[i], end=' ')
 
 
 
